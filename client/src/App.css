@@ -1,0 +1,37 @@
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-image {
+  width: 100%;
+  margin: auto;
+  height: 25rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all 700ms ease-in-out;
+  cursor: pointer;
+}
+
+.product-image:hover {
+  transform: scale(1.4);
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+}
